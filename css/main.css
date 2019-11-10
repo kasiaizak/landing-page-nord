@@ -342,8 +342,8 @@ body {
     position: absolute;
     right: 5px;
     z-index: 6; }
-    .slider__arrows--prev :focus, .slider__arrows--next :focus {
-      outline: none; }
+  .slider__arrows button:focus {
+    outline: none; }
   .slider__arrows--prev {
     top: 40%; }
   .slider__arrows--next {
