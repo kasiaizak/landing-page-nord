@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -9,44 +9,43 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
-  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
-<body class="landingpage-nord">
+<body>
   <div class="slider">
-    <div class="slide-show">
-      <div class="single-slide slide1">
-        <div class="container slide-caption">
-          <div class="row first">
-            <figure class="col-2"><img src="assets/img/logo.png" alt=""></figure>
-            <div class="col-10 text-uppercase navigation">
+    <main class="slider__show slider__show--js">
+      <section class="single-slide start single-slide--js">
+        <div class="container single-slide__inner--js">
+          <div class="start__navigation row">
+            <figure class="start__navigation--logo col-2"><img src="assets/img/logo.png" alt="Logo"></figure>
+            <div class="start__navigation--menu col-10 text-uppercase">
               <label for="menu">Menu</label>
               <input type="checkbox" id="menu">
               <ul>
                 <li><a href="#subscribe">Subscribe</a></li>
-                <li><a href="#getit">Get it now</a></li>
+                <li><a href="#gallery">Get it now</a></li>
               </ul>
             </div>
           </div>
-          <div class="row second">
-            <div class="col-md-6 phone vertical-center"><img src="assets/img/phone.png" alt=""></div>
-            <div class="col-md-6 second-content vertical-center">
-              <h1>Join more than <span>1000+</span> satisfied users</h1>
-              <p>People are definitely a company's greatest asset.<br> It doesn't make any difference<br> whether the product is cars or cosmetics.<br> A company is only as good as the people it keeps.</p>
-              <p><a href="#"><img src="assets/img/play_button.png" alt="Play"></a></p>
+          <div class="start__content row">
+            <div class="start__content-img col-md-6"><img src="assets/img/phone.png" alt="Phone"></div>
+            <div class="start__content-text col-md-6">
+              <h1 class="single-slide__header">Join more than <span>1000+</span> satisfied users</h1>
+              <p class="single-slide__content">People are definitely a company's greatest asset.<br> It doesn't make any difference<br> whether the product is cars or cosmetics.<br> A company is only as good as the people it keeps.</p>
+              <p class="single-slide__content"><a href="#"><img src="assets/img/play_button.png" alt="Google Play"></a></p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="single-slide slide2">
-        <div class="container slide-caption" id="getit">
-          <div class="row">
-            <div class="col-md-5 vertical-center">
-              <h1>What you get</h1>
-              <p>People are definitely a company's greatest asset.<br> It doesn't make any difference<br> whether the product is cars or cosmetics.<br> A company is only as good as the people it keeps.</p>
+      </section>
+      <section class="single-slide gallery single-slide--js" id="gallery">
+        <div class="container single-slide__inner--js">
+          <div class="gallery__content row">
+            <div class="gallery__content-text col-md-5">
+              <h2 class="single-slide__header">What you get</h2>
+              <p class="single-slide__content">People are definitely a company's greatest asset.<br> It doesn't make any difference<br> whether the product is cars or cosmetics.<br> A company is only as good as the people it keeps.</p>
               <button class="text-uppercase">Get it now</button>
             </div>
-            <div class="col-md-7 vertical-center gallery">
+            <div class="gallery__content-img col-md-7">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -72,16 +71,16 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="single-slide slide3">
-        <div class="container slide-caption">
-          <div class="row">
-            <div class="col-md-2 vertical-center">
+      </section>
+      <section class="single-slide reviews single-slide--js">
+        <div class="container single-slide__inner--js">
+          <div class="reviews__content row">
+            <div class="reviews__content-img col-md-2">
               <div class="phone"></div>
             </div>
-            <div class="col-md-10 rewievs text-center">
-              <h1>Some words from our users</h1>
-              <p>People are definitely a company's greatest asset.<br> It doesn't make any difference</p>
+            <div class="reviews__content-txt col-md-10 text-center">
+              <h2 class="single-slide__header">Some words from our users</h2>
+              <p class="single-slide__content">People are definitely a company's greatest asset.<br> It doesn't make any difference</p>
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -89,21 +88,21 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
-                <div class="carousel-inner blockquote-center">
+                <div class="carousel-inner">
                   <blockquote class="carousel-item active text-left">
-                    <p>People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars or cosmetics. A company is only as good as the people it keeps.</p>
+                    <p class="single-slide__content">People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars or cosmetics. A company is only as good as the people it keeps.</p>
                     <footer>John Doe</footer>
                   </blockquote>
                   <blockquote class="carousel-item text-left">
-                    <p>People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars or cosmetics. A company is only as good as the people it keeps.</p>
+                    <p class="single-slide__content">People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars or cosmetics. A company is only as good as the people it keeps.</p>
                     <footer>John Doe</footer>
                   </blockquote>
                   <blockquote class="carousel-item text-left">
-                    <p>People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars or cosmetics. A company is only as good as the people it keeps.</p>
+                    <p class="single-slide__content">People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars or cosmetics. A company is only as good as the people it keeps.</p>
                     <footer>John Doe</footer>
                   </blockquote>
                   <blockquote class="carousel-item text-left">
-                    <p>People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars or cosmetics. A company is only as good as the people it keeps.</p>
+                    <p class="single-slide__content">People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars or cosmetics. A company is only as good as the people it keeps.</p>
                     <footer>John Doe</footer>
                   </blockquote>
                 </div>
@@ -111,13 +110,13 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="single-slide slide4">
-        <div class="slide4a">
-          <div class="slide-caption">
-            <div class="container text-center subscribe">
-              <h1>Join us</h1>
-              <p>We will send you from time to time<br> mail about our news and offers</p>
+      </section>
+      <section class="single-slide join single-slide--js">
+        <div class="join__subscribe">
+          <div class="single-slide__inner--js">
+            <div class="join__subscribe-content container text-center">
+              <h2 class="single-slide__header">Join us</h2>
+              <p class="single-slide__content">We will send you from time to time<br> mail about our news and offers</p>
               <form action="https://formspree.io/katarzynaizak@noreply.com" method="POST">
                 <input type="email" name="email" placeholder="Your Mail">
                 <input type="submit" value="Send" class="text-uppercase">
@@ -125,17 +124,17 @@
             </div>
           </div>
         </div>
-        <div class="slide4b">
-          <footer class="container text-center">
+        <div class="join__footer">
+          <footer class="join__footer-content container text-center">
             <figure><img src="assets/img/logo.png" alt=""></figure>
             <div class="credits">&copy; 2016 - <a href="#">NORD</a> All Rights Reserved</div>
           </footer>
         </div>
-      </div>
-    </div>
-    <div class="slider-arrows">
-      <button class="prev-slide"><i class="fas fa-angle-double-up"></i></button>
-      <button class="next-slide"><i class="fas fa-angle-double-down"></i></button>
+      </section>
+    </main>
+    <div class="slider__arrows">
+      <button class="slider__arrows--prev slider__arrows--prev-js"><i class="fas fa-angle-double-up"></i></button>
+      <button class="slider__arrows--next slider__arrows--next-js"><i class="fas fa-angle-double-down"></i></button>
     </div>
   </div>
 

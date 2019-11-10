@@ -1,2 +1,17 @@
-$violet: #2D2241;
-$yellow: #F9C802;
+$white: #f9f9f9;
+$black: #262a34;
+$aqua: #41e0d8;
+$bp: 991px; //break point
+
+@mixin vertical-center {
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+@mixin footer {
+  color: #3c3d41;
+  padding-bottom: 80px;
+  padding-top: 60px;
+  width: 100%;
+  a { color: $aqua; }
+}
