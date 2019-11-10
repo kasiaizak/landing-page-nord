@@ -41,8 +41,8 @@ body {
       position: absolute;
       right: 5px;
       z-index: 6;
-      :focus { outline: none; }
     }
+    button:focus { outline: none; }
 
     &--prev { top: 40%; }
 
